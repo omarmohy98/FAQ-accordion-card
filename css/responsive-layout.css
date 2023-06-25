@@ -1,0 +1,88 @@
+@media (min-width: 375px) {
+  body {
+    padding: 250px 0;
+  }
+  main {
+    width: 90%;
+  }
+  .images-section {
+    width: 100%;
+  }
+  .faq-section {
+    width: 100%;
+  }
+  .images-section {
+    background-image: url(../images/bg-pattern-mobile.svg);
+    background-position: center top;
+    background-size: auto;
+    position: relative;
+    height: 120px;
+  }
+  .images-section img {
+    width: 70%;
+    position: absolute;
+    top: -50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .faq-section h1 {
+    text-align: center;
+  }
+}
+
+@media (min-width: 675px) {
+  main {
+    width: 70%;
+  }
+  .images-section {
+    width: 100%;
+  }
+
+  .faq-section {
+    width: 100%;
+  }
+}
+
+@media (min-width: 975px) {
+  body {
+    padding: 0px;
+  }
+  main {
+    width: 80%;
+  }
+  .images-section {
+    width: 40%;
+  }
+
+  .faq-section {
+    width: 50%;
+  }
+  .images-section {
+    background-image: url(../images/bg-pattern-desktop.svg);
+    background-position: left center;
+    background-size: contain;
+    position: relative;
+    height: auto;
+  }
+  .images-section img {
+    width: 100%;
+    position: relative;
+    transform: translate(-60%, -10%);
+  }
+  .faq-section h1 {
+    text-align: left;
+  }
+}
+
+@media (min-width: 1275px) {
+  main {
+    width: 70%;
+  }
+  .images-section {
+    width: 40%;
+  }
+
+  .faq-section {
+    width: 50%;
+  }
+}
